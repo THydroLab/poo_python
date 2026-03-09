@@ -79,7 +79,8 @@ while True:
                 print(f"Promedio: {estudiante.obtener_promedio()}")
                 break
             elif estudiante.identificacion == identificacion and opcion == "3":
-                estudiante.ver_informacion()
+                #Imprimir la informacion del estudiante ese era el error 4
+                print(estudiante.ver_informacion())
                 break
         else:
             print("Estudiante no encontrado.")
